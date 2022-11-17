@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+  <title>cardrespo</title>
+  <style>
+    
+    .fix{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .main{
+    
+      display: grid;
+      grid-template-columns: auto auto auto;
+
+    }
+    @media only screen and (max-width:1350px) {
+            .fix {
+                flex-direction: column;
+            }
+
+            .one {
+                width: 100vw !important;
+            }
+
+            
+        }
+    @media screen and (max-width:1500px) {
+      .main{
+        grid-template-columns: auto auto auto;
+      }
+    }
+    @media screen and (max-width:900px) {
+      .main{
+        grid-template-columns:auto auto;
+      }
+    }
+    @media screen and (max-width:650px) {
+      .main{
+        grid-template-columns:auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+
+            </li>
+            <li class="nav-item">
+
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style="color:white">SelectCity</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Agra</a>
+                    <a class="dropdown-item" href="#">Ahemdabad</a>
+                    <a class="dropdown-item" href="#">Banglore</a>
+                    <a class="dropdown-item" href="#">Bhopal</a>
+                    <a class="dropdown-item" href="#">Chennai</a>
+                    <a class="dropdown-item" href="#">Delhi</a>
+                    <a class="dropdown-item" href="#">Faridabad</a>
+                    <a class="dropdown-item" href="#">Gaziabad</a>
+                    <a class="dropdown-item" href="#">Hydrabad</a>
+                    <a class="dropdown-item" href="#">Indore</a>
+                    <a class="dropdown-item" href="#">Jaipur</a>
+                    <a class="dropdown-item" href="#">Kalyan</a>
+                    <a class="dropdown-item" href="#">Kanpur</a>
+                    <a class="dropdown-item" href="#">kolkata</a>
+                    <a class="dropdown-item" href="#">Lucknow</a>
+                    <a class="dropdown-item" href="#">ludhiana</a>
+                    <a class="dropdown-item" href="#">Meerut</a>
+                    <a class="dropdown-item" href="#">Mumbai</a>
+                    <a class="dropdown-item" href="#">Nagpur</a>
+                    <a class="dropdown-item" href="#">Nashik</a>
+                    <a class="dropdown-item" href="#">Patna</a>
+                    <a class="dropdown-item" href="#">Pune</a>
+                    <a class="dropdown-item" href="#">Rajkot</a>
+                    <a class="dropdown-item" href="#">Srinagar</a>
+                    <a class="dropdown-item" href="#">Surat</a>
+                    <a class="dropdown-item" href="#">Thane</a>
+                    <a class="dropdown-item" href="#">Vadodra</a>
+                    <a class="dropdown-item" href="#">Varanasi</a>
+
+
+
+                </div>
+            </li>
+            <li class="nav-item">
+
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                style="width: 60vw">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><span
+                    style="color:black ;">Search</span></button>
+        </form>
+    </div>
+</nav> 
+
+<h1 style="text-align:center">Home Tuitions / Part time tutoring jobs</h1>
+<div class="fix">
+<div class="boxleft">
+  <div style="width: 15vw;display: inline;" class="sidebar ">
+  
+      <p>
+          <a style="width:15vw;background:white;" class="btn btn-primary one" data-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span style="color:brown;font-size: 15px;font-weight: 700;">Locality /Pincode</span>
+          </a>
+  
+      </p>
+      <div class="collapse" id="collapseExample">
+          <div style="width:15vw;padding: 0;" class="card card-body one">
+              <input type="text" placeholder="Locality /Pincode">
+          </div>
+      </div>
+  
+      <p>
+          <a style="width:15vw;background:white;" class="btn btn-primary one" data-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span style="color:brown;font-size: 15px;font-weight: 700;">Course</span>
+          </a>
+  
+      </p>
+      <div class="collapse" id="collapseExample">
+          <div style="width:15vw;padding: 0;" class="card card-body one">
+              <input type="text" placeholder="Enter Course">
+          </div>
+      </div>
+      
+      <p>
+          <a style="width:15vw;background:white;" class="btn btn-primary one" data-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span style="color:brown;font-size: 15px;font-weight: 700;">Subject</span>
+          </a>
+  
+      </p>
+      <div class="collapse" id="collapseExample">
+          <div style="width:15vw;padding: 0;" class="card card-body one">
+              <input type="text" placeholder="Enter Subject">
+          </div>
+      </div>
+      
+      <p>
+          <a style="width:15vw;background:white;" class="btn btn-primary one" data-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span style="color:brown;font-size: 15px;font-weight: 700;">Hourly Price</span>
+          </a>
+  
+      </p>
+      <div class="collapse" id="collapseExample">
+          <div style="width:15vw;padding: 0;" class="card card-body one">
+              <div style="margin-left:10px" class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Upto Rs 200
+                  </label>
+  
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Rs 201 - Rs 500
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Rs 501 - Rs 1000
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Above Rs 1000
+                  </label>
+  
+  
+  
+  
+              </div>
+          </div>
+      </div>
+  
+      <p>
+          <a style="width:15vw;background:white;" class="btn btn-primary one" data-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span style="color:brown;font-size: 15px;font-weight: 700;">Tution Type</span>
+          </a>
+  
+      </p>
+      <div class="collapse" id="collapseExample">
+          <div style="width:15vw;padding: 0;" class="card card-body one">
+              <div style="margin-left:10px" class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Home Tutions
+                  </label>
+  
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                     At Tutor At Home
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      At Institute
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Online Tuition
+                  </label>
+  
+  
+  
+  
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  
+
+  <div class="rightcard shadow p-3 mb-5 bg-white rounded">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+       
+          <div class="main">
+
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="index.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
