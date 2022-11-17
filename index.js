@@ -22,7 +22,7 @@ const data =[
         subject:"Math"
     },
 
-    {  dtae:"17-Nocv-22",
+    {  dtae:"17-Nov-22",
     tution:"wanted tution for home classes",
     location:"Guttaiya bagh",
     gender:"female",
@@ -33,7 +33,7 @@ const data =[
     tutionid:"123458"
     },
     {
-        dtae:"17-Nocv-22",
+        dtae:"17-Nov-22",
         tution:"wanted tution for online classes",
         location:"Quila english ganj",
         gender:"Any",
@@ -44,7 +44,7 @@ const data =[
         subject:"English",
     },
     {
-        dtae:"18-Nocv-22",
+        dtae:"18-Nov-22",
         tution:"wanted tution for home classes",
         location:"Kajiyara",
         gender:"Male",
@@ -55,7 +55,7 @@ const data =[
         subject:"All subjects"
     },
     {
-        dtae:"11-Nocv-22",
+        dtae:"11-Nov-22",
         tution:"wanted tution for home classes",
         location:"Okhla NSIC",
         gender:"female",
@@ -66,7 +66,7 @@ const data =[
         subject:"Science",
     },
     {
-        dtae:"15-Nocv-22",
+        dtae:"15-Nov-22",
         tution:"wanted tution for home classes",
         location:"Jamia Miliya Islamia",
         gender:"Any",
@@ -78,7 +78,7 @@ const data =[
     },
     {
        
-        dtae:"15-Nocv-22",
+        dtae:"15-Nov-22",
         tution:"wanted tution for home classes",
         location:"Rajendra place",
         gender:"Any",
@@ -90,7 +90,7 @@ const data =[
     },
     {
        
-        dtae:"15-Nocv-22",
+        dtae:"15-Nov-22",
         tution:"wanted tution for home classes",
         location:"Khan Market",
         gender:"Any",
@@ -140,7 +140,7 @@ const moviecard = `
     <hr>
 
 </div>
-<div><i class="bi bi-file-earmark-break"></i><span>${data[index].class}class TuitionId:${data[index].tution}</span></div>
+<div><i class="bi bi-file-earmark-break"></i><span>${data[index].class}class TuitionId:${data[index].tutionid}</span></div>
 <hr>
 <div>
     <pre>  <i class="bi bi-book"></i> :<span>${data[index].subject}</span></pre>
